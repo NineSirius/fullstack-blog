@@ -1,0 +1,9 @@
+<div class="flex">
+  <h2>Посты</h2>
+
+  <div class="flex flex-col gap-[10px]">
+    @for (item of posts; track $index) {
+    <div>{{ item.content }}</div>
+    }
+  </div>
+</div>
