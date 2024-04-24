@@ -1,0 +1,7 @@
+<div
+  class="w-[150px] flex flex-col gap-[15px] shadow-md rounded-[5px] p-[10px]"
+>
+  @for (item of links; track $index) {
+  <a href="{{ item.href }}">{{ item.label }}</a>
+  }
+</div>
